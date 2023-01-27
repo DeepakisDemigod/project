@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Header from './components/Header';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='bg-black h-screen'>
-         <h1 className='text-green-600 text-6xl font-bold'>Deepak Thapa</h1>
-      </div>
-    </>
+  <div>
+    <nav className='m-0 p-0'>
+      <Header />
+      
+    </nav>
+  </div>
   )
 }
 
